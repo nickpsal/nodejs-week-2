@@ -1,0 +1,23 @@
+{
+  "name": "2.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "nodemonConfig": {
+    "ignore": [
+      "./mybooks.json"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express-validator": "^6.14.2"
+  }
+}
